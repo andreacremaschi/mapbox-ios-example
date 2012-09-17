@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OnlineLayerViewController : UIViewController
+#import "RouteMe.h"
 
+@interface OnlineLayerViewController : UIViewController <RMMapViewDelegate>
+
+@property RMMapView *mapView;
 @end

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RouteMe.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, RMMapViewDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
